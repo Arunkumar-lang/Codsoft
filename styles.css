@@ -1,0 +1,124 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: transparent;
+}
+
+/* Header and Navigation styles */
+header {
+    background: url(robotics.png) center center fixed;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    background: url(robotics.png) center center fixed;
+    color: red;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.hero h1 {
+    background: transparent;
+    color: red;
+    margin-bottom: 0.5em;
+}
+
+/* Features section styles */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+    background: white;
+    background: url(back.jpg) center center fixed;
+}
+
+.feature {
+    flex: 1;
+    padding: 1em;
+    margin: 0 1em;
+    background: #f4f4f4;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.feature h2 {
+    margin-bottom: 0.5em;
+    color: #f28500;
+}
+
+p {
+    color: crimson;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer .social-media img {
+    margin: 0 10px;
+}
+
+footer{
+    p{
+        color:white
+    }
+}
+
+img.animated-image {
+    position: relative;
+    -webkit-animation: movingImage linear 20s 1s 2 alternate;
+    -moz-animation: movingImage linear 20s 1s 2 alternate; 
+    animation: movingImage linear 20s 2 1s alternate; 
+}
+
+@-webkit-keyframes movingImage {
+    0% { opacity: 0; left: 50px; top: 0px; }
+    25% { opacity: 1; left: 0px; top: 50px; } 
+    50% { opacity: 0; left: 50px; top: 100px; }
+    75% { opacity: 1; left: 100px; top: 50px; }
+    100% { opacity: 0; left: 50px; top: 0px; }
+}
+
+@-moz-keyframes movingImage {
+    0% { opacity: 0; left: 50px; top: 0px; }
+    25% { opacity: 1; left: 0px; top: 50px; } 
+    50% { opacity: 0; left: 50px; top: 100px; }
+    75% { opacity: 1; left: 100px; top: 50px; }
+    100% { opacity: 0; left: 50px; top: 0px; }
+}
+
+@keyframes movingImage {
+    0% { opacity: 0; left: 50px; top: 0px; }
+    25% { opacity: 1; left: 0px; top: 50px; } 
+    50% { opacity: 0; left: 50px; top: 100px; }
+    75% { opacity: 1; left: 100px; top: 50px; }
+    100% { opacity: 0; left: 50px; top: 0px; }
+}
+ 
